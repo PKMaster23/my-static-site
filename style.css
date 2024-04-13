@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header, footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+#quiz-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    margin: 20px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .options {
+        flex-direction: column;
+    }
+}
